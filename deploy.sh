@@ -1,6 +1,9 @@
 #!/bin/bash
 
+sudo apt-get install dkms
+
 set -euo pipefail
+
 
 function ensure_no_cli_args() {
     if [ $# -ne 0 ]
